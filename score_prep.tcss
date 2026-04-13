@@ -1,0 +1,121 @@
+Screen {
+    background: $surface;
+    align: center top;
+}
+
+#main-container {
+    width: 64;
+    height: auto;
+    margin: 1 0;
+    align: center top;
+}
+
+#title {
+    text-align: center;
+    text-style: bold;
+    color: $text;
+    margin-bottom: 1;
+}
+
+#subtitle {
+    text-align: center;
+    color: $text-muted;
+    margin-bottom: 1;
+}
+
+/* Setup screen */
+#setup {
+    height: auto;
+    padding: 1 2;
+}
+
+#setup-label {
+    text-align: center;
+    margin-bottom: 1;
+}
+
+#measure-input {
+    width: 20;
+    margin: 0 0 1 0;
+}
+
+#start-btn {
+    width: 20;
+}
+
+#error-label {
+    text-align: center;
+    color: $error;
+    margin-top: 1;
+}
+
+/* Practice screen */
+#practice {
+    height: auto;
+    padding: 1 2;
+}
+
+#measure-card {
+    background: $panel;
+    border: tall $primary;
+    height: 16;
+    width: 100%;
+    margin-bottom: 1;
+    align: center middle;
+    content-align: center middle;
+}
+
+#measure-display {
+    text-style: bold;
+    color: green;
+    width: auto;
+    height: auto;
+}
+
+#practice-status {
+    text-align: center;
+    color: $text-muted;
+    margin-bottom: 1;
+}
+
+#counter {
+    text-align: center;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#progress-bar {
+    margin: 0 4 1 4;
+}
+
+#btn-row {
+    height: 3;
+    align: center middle;
+    margin-bottom: 1;
+}
+
+#next-btn {
+    margin-right: 2;
+}
+
+#reset-btn {
+    margin-left: 2;
+}
+
+#history-title {
+    text-align: center;
+    text-style: bold;
+    color: $text-muted;
+    margin-bottom: 1;
+}
+
+#history-box {
+    background: $panel;
+    height: 6;
+    padding: 1 2;
+    overflow-y: auto;
+}
+
+#history-content {
+    width: 100%;
+}
